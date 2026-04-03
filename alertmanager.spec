@@ -56,6 +56,7 @@ exit 0
 %{_bindir}/%{name}
 %config(noreplace) %{_sysconfdir}/default/%{name}
 %dir %attr(755, %{user}, %{group}) %{_sharedstatedir}/prometheus
+%{_unitdir}/%{name}.service
 %attr(755, -, -)%{_bindir}/amtool
 %config(noreplace) %attr(640, -, %{group})%{_sysconfdir}/prometheus/alertmanager.yml
 
