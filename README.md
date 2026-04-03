@@ -1,8 +1,8 @@
-# Prometheus3
+# Alertmanager
 
-[![RPM builds for EL8, EL9 and EL10](https://github.com/cloudox-org/prometheus3/actions/workflows/rpm-build.yml/badge.svg?branch=main)](https://github.com/cloudox-org/prometheus3/actions/workflows/rpm-build.yml)
+[![RPM builds for EL8, EL9 and EL10](https://github.com/cloudox-org/alertmanager/actions/workflows/rpm-build.yml/badge.svg?branch=main)](https://github.com/cloudox-org/alertmanager/actions/workflows/rpm-build.yml)
 
-Prometheus3 RPM builds for EL8,EL9 and EL10
+Alertmanager RPM builds for EL8,EL9 and EL10
 
 RPM repo available here:
 
