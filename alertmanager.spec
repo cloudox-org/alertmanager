@@ -43,13 +43,13 @@ useradd -r -g prometheus -d %{_sharedstatedir}/prometheus -s /sbin/nologin -c "P
 exit 0
 
 %post
-%systemd_post alertmanager.service
+%systemd_post %{name}.service
 
 %preun
-%systemd_preun alertmanager.service
+%systemd_preun %{name}.service
 
 %postun
-%systemd_postun alertmanager.service
+%systemd_postun %{name}.service
 
 %files
 %defattr(-,root,root,-)
