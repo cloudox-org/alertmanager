@@ -1,6 +1,6 @@
 .PHONY: all build clean
 
-PACKAGE = prometheus3
+PACKAGE = alertmanager
 IMAGE = ghcr.io/cloudox-org/cloudox-rpm-builder-alma:${VERSION}
 OUT_DIR = el${VERSION}
 
