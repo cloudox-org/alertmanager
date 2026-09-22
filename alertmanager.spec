@@ -3,7 +3,7 @@
 %global group prometheus
 
 Name: alertmanager
-Version: 0.34.0
+Version: 0.34.1
 Release: 1%{?dist}
 Summary: Prometheus Alertmanager.
 License: ASL 2.0
@@ -61,6 +61,8 @@ exit 0
 %config(noreplace) %attr(640, -, %{group})%{_sysconfdir}/prometheus/alertmanager.yml
 
 %changelog
+* Tue Sep 22 2026 Ivan Garcia
+- Update to Alertmanager 0.34.1
 * Fri Sep 04 2026 Ivan Garcia
 - Update to Alertmanager 0.34.0
 * Thu Jul 23 2026 Ivan Garcia <igarcia@cloudox.org> - 0.33.1
